@@ -5,7 +5,7 @@ The source of the [here](data)
 
 There are two parts of the analysis
 1. Customer segmentation using RFM
-2. Recommendation system using user-based implicit collaborative filtering
+2. Product Recommendation system
 
 
 ### Part 1: RFM Analysis
@@ -36,7 +36,7 @@ Working on each of the 125 RFM groups individually may not be a feasible option 
 - Hibernating: We don't know them much, and they didn't purchase within a month. We need to guess to motivate them to buy another time.
 
 
-![image](img/RFM.PNG)
+![image](Img/RFM.PNG)
 
 
 #### Short Summary
@@ -51,21 +51,17 @@ Working on each of the 125 RFM groups individually may not be a feasible option 
 By using the RFM feature, we use the K-Means algorithm to perform *customer segmentation*
 
 #### Results from K-Means:
-![K-Means](Img/kmeans.PNG)
+![K-Means](Img/KMeans.png)
 
 ### Gaussian:
 This model uses the Gaussian method to form a cluster.
 
 #### Results of the Gaussians:
-![Gaussians](Img/Gaussians.PNG)
+![Gaussians](Img/Gaussian.png)
 
 
 
-### Part 2: Recommender Systems
+### Part 2: Product Recommender Systems
 
 This recommendation system can be used by the company to **promote the recommended product** after the user **purchase or interested** with the **currently viewed product**. By conduct this kind of promotion, your company does not randomly promote product. On the other hand, the product promoted has high correlation. Therefore, the customer **may purchased more** since interest product appeared frequently.
 
-
-### Note
-
-Step-by-step python anlaysis and discussions can be found [here](Customer Segmentation and Product Recommender .ipynb) 
