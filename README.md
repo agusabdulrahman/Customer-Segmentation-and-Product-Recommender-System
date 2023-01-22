@@ -68,4 +68,4 @@ This recommendation system can be used by the company to **promote the recommend
 
 ### Note
 
-Step-by-step python anlaysis and discussions can be found [here](Customer Segmentation  and Product Recommender.ipynb) 
+Step-by-step python anlaysis and discussions can be found [here](Customer Segmentation and Product Recommender .ipynb) 
